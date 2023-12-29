@@ -1,0 +1,226 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  background-image: url("../sun.jpg");
+  background-size: 100%;
+  
+}
+
+
+.bg-image {
+  /* The image used */
+  background-image: url("../sun.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.sidebar {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  transform: translate(865px,-35px);
+  height: 110%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: -20px;
+  width: 40%;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.headerbackg {
+  margin-top: auto;
+ 
+  
+  filter: drop-shadow(1px 10px 4px #4444dd19);
+}
+
+.headername
+{
+  font-size:15px;
+  margin-left: 150px;
+  margin-top: 30px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+}
+
+.input
+{
+  border-radius: 8px;
+  text-align:center;
+  color: gainsboro;
+  width: 120px;
+  margin: 8px ;
+  margin-right: 20px;
+  font-size: 30px;
+  border-style: double;
+  border-color: transparent;
+  padding: 4px ;
+  background-color: transparent;
+  width: 200px;
+  
+  
+}
+
+.inputdiv
+{
+
+  text-align: left;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 30px;
+
+}
+
+.button
+{
+
+
+  color: gainsboro;
+  border-radius: 8px;
+  border-style: double;
+  padding: 2px 5px;
+  width: 120px;
+  margin: 8px ;
+  border-style: double;
+  border-color: transparent;
+  padding: 4px ;
+  background-color: transparent;
+  text-align:center;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input[type=text] 
+{
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:hover
+{
+  padding: 4px 5% 4px 5%; 
+  width: 215px;
+  font-size: 18px;
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 8px;
+  border-style: double;
+  border-color: transparent;
+  background-color:#e2e2e2;
+  text-align:center;
+  font-size: 30px;
+  
+}
+
+
+
+.button:hover
+{
+  transition:  0.4s;
+  border-color: aliceblue;
+  border-style: double;
+  border-width: 1px;
+  
+}
+
+.temp 
+{
+  
+  margin-top: 450px;
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.place
+{
+  margin-top: -190px;
+  margin-left: 20.5%;
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+/* .cloudy-background {
+  background-image: url("./images/cloudy.jpg");
+}
+
+.rain-background {
+  background-image: url("./images/rain.jpg");
+}
+
+.sun-background {
+  background-image: url("./images/sun.jpg");
+}
+
+.snow-background {
+  background-image: url("./images/snow.jpg");
+} */
+
+
+.weatherdetaildiv
+{
+  
+  text-align: left;
+  padding-left: 45px;
+  border-bottom: 1px solid #e2e2e2;
+  margin: 50px;
+  
+
+}
+
+.weatherdetail
+{
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  margin-left: -25px;
+  margin-bottom: 15px;
+
+}
+
+.inputdiv
+{
+  border-bottom: 1px solid #e2e2e2;
+  margin: 50px;
+}
+
+.additionalinfo1
+{
+  background: -webkit-linear-gradient(#eee, rgba(225, 225, 225, 0.431));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 13px;
+  font-size: 25px;
+  text-align: center;
+}
