@@ -8,7 +8,7 @@ Dive into the repository to explore the React components, API integration techni
 
 Thank you for stopping by! Feel free to explore the code, suggest improvements, or fork the project to create your own version.
 
-IF LINK DOESNT WORK READ BELOW:
+If the link does not work, please follow the steps below to view the project:
 
 To host project locally and view:
 
